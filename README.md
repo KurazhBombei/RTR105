@@ -45,4 +45,17 @@ rwx rwx rwx = permitions
  mv fails1.txt fails3.txt = rename or rewrite if alreedy exist fails3.txt
  mv fails1.txt repo./fails2.txt = move and rename
  
+4.nodarbiba
+nano nosaukums.sh - create script
+
+Script contain.
+#!/bin/bash <- set interpritator
+mkdir Mape
+cd Mape
+mkdir MapeMape
  
+/home/user/nosaukums.sh - do script
+echo $PATH - pathes list
+PATH=$PATH:directory - add new directory to pathes list
+if new path(/home/user/) added can be used just name (nosaukums.sh)
+clone https//:github.come/user_name/directory - clone directory from github

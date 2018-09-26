@@ -1,0 +1,16 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  git clone https://github.com/KurazhBombei/RTR105
+    5  ls -l
+    6  mv man_skripts.sh RTR105/
+    7  cd RTR105/
+    8  ls -l
+    9  nano README.md 
+   10  nano git-upload
+   11  ls -l
+   12  chmode 764 git-upload 
+   13  chmod 764 git-upload 
+   14  ls -l
+   15  history
+   16  history > History_20180926.txt
