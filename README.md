@@ -59,3 +59,17 @@ echo $PATH - pathes list
 PATH=$PATH:directory - add new directory to pathes list
 if new path(/home/user/) added can be used just name (nosaukums.sh)
 clone https//:github.come/user_name/directory - clone directory from github
+
+5.nodarbiba
+
+vars() - function which show items list
+__builtins__ - object
+__doc__ - method (__builtins__.doc__ - show documentation about builtins)
+print() - function for reflection information on display
+= - assigments operation (a = 20; b = 1.56 ; c = 'A' ('- need to insert A like a character) 
+type() - function for reflection data type (type(a))
+'int' - data type of whole numbers
+'float' - data type of real numbers
+'str' - data typpe for character lines
+
+
