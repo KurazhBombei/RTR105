@@ -1,0 +1,9 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/KurazhBombei/RTR105
+    4  cd RTR105/
+    5  nano test script.py
+    6  idle
+    7  def man
+    8  history
+    9  history > history_20181022.txt
