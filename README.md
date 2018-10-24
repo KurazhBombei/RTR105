@@ -72,4 +72,44 @@ type() - function for reflection data type (type(a))
 'float' - data type of real numbers
 'str' - data typpe for character lines
 
+6.nodarbiba
+
+constants - nummers and characters( 5; 5.5 ; ABC )
+print() - display argument entered in parentheses
+
+A variable is a named place in the memory where a programmer can store
+data and later retrieve the data using the variable “name” (x=5 - set x value as 5)
+
+Variables have to:
+start with a letter or underscore _
+consist of letters, numbers, and underscores
+Good: spam eggs spam23 _speed
+Bad: 23spam #sign var.12
+Different: spam Spam SPAM
+
+x = 2
+x = x + 2
+print(x) -> 4
+
++ Addition
+- Subtraction
+* Multiplication
+/ Division
+** Power
+% Remainder
+
+Highest precedence rule to lowest precedence rule:
+• Parentheses are always respected
+• Exponentiation (raise to a power)
+• Multiplication, Division, and Remainder
+• Addition and Subtraction
+• Left to right
+x = 1 + 2 ** 3 / 4 * 5
+>>> print(x)
+11.0
+
+
+
+
+
 
