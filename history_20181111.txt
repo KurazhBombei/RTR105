@@ -1,0 +1,4 @@
+    1  cd RTR105/
+    2  ls -l
+    3  hystory > history_20181111.txt
+    4  history > history_20181111.txt
