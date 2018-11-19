@@ -479,3 +479,201 @@ is equal to ==
 is not equal to !=
 
 
+
+
+10.nodarbiba. Strings
+
+
+
+
+>>> fruit = 'banana'
+>>> letter = fruit[1]
+>>> print(letter)
+a
+>>> x = 3
+>>> w = fruit[x - 1]
+>>> print(w)
+n
+
+>>> zot = 'abc'
+>>> print(zot[5])
+Traceback (most recent call last): File
+"<stdin>", line 1, in <module>
+IndexError: string index out of range
+>>> 
+ 
+The built-in function len gives us the length of a string.
+>>> fruit = 'banana'
+>>> print(len(fruit))
+6
+
+fruit = 'banana'                     
+index = 0
+while index < len(fruit):    
+ letter = fruit[index]
+ print(index, letter)
+ index = index + 1
+Output:
+0 b
+1 a
+2 n
+3 a
+4 n
+5 a
+
+fruit = 'banana'
+for letter in fruit :
+ print(letter)
+                             Output fo bough: b a n a n a
+index = 0
+while index < len(fruit) :
+ letter = fruit[index]
+ print(letter)
+ index = index + 1
+ 
+ This is a simple loop that
+loops through each letter in a
+string and counts the number
+of times the loop encounters
+the 'a' character:
+word = 'banana'
+count = 0
+for letter in word :
+ if letter == 'a' :
+ count = count + 1
+print(count)
+
+>>> s = 'Monty Python'
+>>> print(s[0:4])
+Mont
+>>> print(s[6:7])
+P
+>>> print(s[6:20])
+Python
+
+>>> s = 'Monty Python'
+>>> print(s[:2])
+Mo
+>>> print(s[8:])
+thon
+>>> print(s[:])
+Monty Python
+
+>>> a = 'Hello'
+>>> b = a + 'There'
+>>> print(b)
+HelloThere
+>>> c = a + ' ' + 'There'
+>>> print(c)
+Hello There
+>>>
+
+>>> fruit = 'banana'
+>>> 'n' in fruit
+True
+>>> 'm' in fruit
+False
+>>> 'nan' in fruit
+True
+>>> if 'a' in fruit :
+... print('Found it!')
+...
+Found it!
+>>>
+
+
+if word == 'banana':
+ print('All right, bananas.')
+
+if word < 'banana':
+ print('Your word,' + word + ', comes before banana.')
+elif word > 'banana':
+ print('Your word,' + word + ', comes after banana.')
+else:
+ print('All right, bananas.')
+ 
+ 
+ >>> greet = 'Hello Bob'
+>>> zap = greet.lower()
+>>> print(zap)
+hello bob
+>>> print(greet)
+Hello Bob
+>>> print('Hi There'.lower())
+hi there
+>>>
+
+>>> stuff = 'Hello world'
+>>> type(stuff)
+<class 'str'>
+>>> dir(stuff)
+['capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format',
+'format_map', 'index', 'isalnum', 'isalpha', 'isdecimal', 'isdigit', 'isidentifier', 'islower',
+'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip',
+'maketrans', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split',
+'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+
+String Libraly:
+str.capitalize()
+str.center(width[, fillchar])
+str.endswith(suffix[, start[, end]])
+str.find(sub[, start[, end]])
+str.lstrip([chars])
+str.replace(old, new[, count])
+str.lower()
+str.rstrip([chars])
+str.strip([chars])
+str.upper()
+
+>>> fruit = 'banana'
+>>> pos = fruit.find('na')
+>>> print(pos)
+2
+>>> aa = fruit.find('z')
+>>> print(aa)
+-1
+#If the substring is not found, find()
+returns -1
+
+>>> greet = 'Hello Bob'
+>>> nstr = greet.replace('Bob','Jane')
+>>> print(nstr)
+Hello Jane
+>>> nstr = greet.replace('o','X')
+>>> print(nstr)
+HellX BXb
+>>> 
+
+>>> greet = ' Hello Bob '
+>>> greet.lstrip()
+'Hello Bob '
+>>> greet.rstrip()
+' Hello Bob'
+>>> greet.strip()
+'Hello Bob'
+>>> 
+#lstrip() and rstrip() remove
+whitespace at the left or right
+ strip() removes both
+beginning and ending
+whitespace
+
+Prefixes:
+>>> line = 'Please have a nice day'
+>>> line.startswith('Please')
+True
+>>> line.startswith('p')
+False
+
+>>> data = 'From stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008'
+>>> atpos = data.find('@')
+>>> print(atpos)
+21
+>>> sppos = data.find(' ',atpos)
+>>> print(sppos)
+31
+>>> host = data[atpos+1 : sppos]
+>>> print(host)
+uct.ac.za
+
+ 
