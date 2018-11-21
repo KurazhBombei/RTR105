@@ -1,0 +1,31 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  idle
+    4  mkdir ./L1B
+    5  cd ./L1B/
+    6  idle
+    7  ls -l
+    8  git clone https://edx2.etf.rtu.lv/portal
+    9  git clone https://github.com/KurazhBombei/RTR105
+   10  ../
+   11  //
+   12  ..
+   13  cd ../
+   14  ls -l
+   15  cd ./L1B/
+   16  ls -l
+   17  mv ./RTR105/ ../
+   18  ls -l
+   19  cd ../
+   20  ls -l
+   21  mv ./L1B/ ./RTR105/
+   22  ls-l
+   23  ls -l
+   24  cd ./RTR105/
+   25  ls -l
+   26  history > history_20181121_14_19
+   27  ls -l
+   28  rm ./history_20181121_14_19 
+   29  ls -l
+   30  rm ./history_20181121_14_19.txt
+   31  history > history_20181121_14_19.txt
