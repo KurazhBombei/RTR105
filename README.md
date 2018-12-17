@@ -676,4 +676,20 @@ False
 >>> print(host)
 uct.ac.za
 
+
+
+
+Laboratorijas darbs. (MonteCarlo)
+
+
+
+
+
+To find area between x ass and your function Monte Carlo metod is used.
+It's iply that amoun of dots from fit zones devided on amount of all generated dots.
+random.uniform() - used for generating random values (uniform - distribute values uniformly)
+www.wolframalpha.com serch(integrate x from 0 to 5) - helt to execute it.
+An example exist in my repository, it is - MonteCarlo_1.py
+
+
  
